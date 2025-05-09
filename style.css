@@ -1,0 +1,222 @@
+body {
+  font-family: Tahoma, sans-serif;
+  direction: rtl;
+  color: #333;
+  background: url('bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 42px;
+}
+
+header p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.767);
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 900px;
+  width: 90%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #000000;
+  margin-top: 0;
+}
+
+ul {
+  padding-right: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  margin-top: 40px;
+}
+.logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+body {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  padding: 50px;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 10px;
+}
+<nav class="navbar">
+  <ul>
+    <li><a href="index.html">خانه</a></li>
+    <li><a href="about.html">درباره من</a></li>
+    <li><a href="services.html">خدمات</a></li>
+    <li><a href="contact.html">تماس با من</a></li>
+  </ul>
+</nav>
+body {
+  margin: 0;
+  font-family: 'IRANSans', sans-serif;
+  direction: rt ;
+  background-color: #f5f5f5;
+}
+
+.main-header {
+  background-color: #1f2c3a; /* سرمه‌ای */
+  padding: 15px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #ff6600; /* نارنجی تیره */
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.main-nav a:hover {
+  color: #ff6600;
+}
+.profile-img {
+  width: 160px;         /* اندازه کوچیک‌تر */
+  height: 160px;
+  border-radius: 50%;   /* کادر دایره‌ای */
+  object-fit: cover;    /* کراپ عکس داخل دایره */
+  border: 3px solid #ff6600;  /* حاشیه نازک نارنجی (اختیاری) */
+  box-shadow: 0 0 10px rgba(0,0,0,0.2); /* سایه (اختیاری) */
+}
+.services-section {
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.service-box {
+  background-color: #e96004;
+  border-radius: 10px;
+  padding: 30px 20px;
+  width: 280px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.service-box:hover {
+  transform: translateY(-5px);
+}
+
+.service-box img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.service-box h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #ff6600;
+}
+
+.service-box p {
+  font-size: 20px;
+  color: #f16d00;
+}
+.services-section {
+  display: flex;
+  justify-content: center;  /* وسط‌چین کردن همه چیز */
+  align-items: center;      /* برای وسط‌چین عمودی */
+  flex-direction: column;   /* برای اینکه سرتیتر و باکس‌ها از بالا به پایین نمایش داده بشن */
+  padding: 40px 20px;
+}
+
+.services {
+  display: flex;
+  justify-content: center;  /* وسط‌چین کردن باکس‌ها */
+  flex-wrap: wrap;          /* وقتی تعداد باکس‌ها زیاد بشه، به خط بعد میرن */
+  gap: 30px;                /* فاصله بین باکس‌ها */
+}
+
+.service-box {
+  width: 250px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;  /* متن داخل هر باکس رو وسط‌چین کن */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.back-button {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: #ee5108a8;
+  color: #faefef;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.back-button:hover {
+  background-color: #444343;
+  color: #fc6500;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
